@@ -16,9 +16,8 @@ func main() {
 	fmt.Println("ch1 len:", len(ch1))
 	fmt.Println("service len:", len(serv.Ch))
 
-	<- serv.Ch
+	<-serv.Ch
 
 	fmt.Println("ch1 len:", len(ch1))
 	fmt.Println("service len:", len(serv.Ch))
 }
-

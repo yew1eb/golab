@@ -13,9 +13,9 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	agent := stackimpact.Start(stackimpact.Options{
-		AgentKey: "agent key here",
-		AppName: "Basic Go Server",
-		AppVersion: "1.0.0",
+		AgentKey:       "agent key here",
+		AppName:        "Basic Go Server",
+		AppVersion:     "1.0.0",
 		AppEnvironment: "production",
 	})
 
